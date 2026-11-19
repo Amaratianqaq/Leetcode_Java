@@ -1,0 +1,34 @@
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ===== 编译产物 =====
+out/
+target/
+build/
+bin/
+*.class
+*.jar
+*.war
+
+# ===== Maven / Gradle =====
+.gradle/
+mvnw
+mvnw.cmd
+
+# ===== 日志与临时文件 =====
+*.log
+*.tmp
+*.bak
+hs_err_pid*
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 本地配置（含密钥等，不要提交）=====
+local.properties
+.env
